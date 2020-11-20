@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing:border-box;
+}
+
+
+.box{
+  min-height:100vh;
+  width:100%;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.picture info{
+  color: white;
+}
+
+#picture{
+  background-image: url('../img/nightsky.jpg');
+  background-size: cover;
+  position: relative;
+  opacity: 90%;
+}
+.text{
+  color: white;
+  font-size: 15px;
+  position: relative;
+  text-emphasis: em;
+  margin-bottom: 50px;
+}
+#picture .btn{
+  padding: 10px 20px;
+  display: inline-block;
+  color:rgb(255, 94, 0);
+  border: 3px solid orangered;
+  background-color:rgb(210, 252, 255);
+  font-size: 1rem;
+  text-emphasis: em;
+}
+#picture .btn:hover{
+  background-color: rgba(255, 166, 0,0.9);
+  color:rgb(155, 0, 77);
+}
+
+
+.nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.nav a:hover {
+  background-color: rgb(255, 166, 0);
+  color: black;
+}
+
+
+
+h2{
+  text-align: center;
+}
+p{
+  text-emphasis: center;
+  width:100%;
+  margin-left:10px;
+  margin-right:10px;
+}
